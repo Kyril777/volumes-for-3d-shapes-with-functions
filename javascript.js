@@ -7,7 +7,6 @@ const sphereVolume = (radius) => {
 }
 
 
-
 /* Cone.  V = 1/3 × π × r2 × h. */
 const coneVolume = (radius, height) => {
     let radiusSquared = Math.pow(radius, 2);
