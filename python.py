@@ -1,4 +1,4 @@
-# JavaScipt function expressions for calculating volumes of 3-D shapes. 
+# PHP functiona for calculating volumes of 3-D shapes. 
 
 import math
 
