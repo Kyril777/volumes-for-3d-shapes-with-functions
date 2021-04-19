@@ -38,3 +38,9 @@ function square_pyramid_volume($base, $height) {
 	$base_squared = pow($base, 2);
 	return 1/3 * $base_squared * $height;
 }
+
+
+/* Triangular Prism. V = 1/2 * apothem * base * height. */
+function triangular_prism_volume($apothem, $base, $height){
+    return ($apothem * $base)/2  * $height;
+}
