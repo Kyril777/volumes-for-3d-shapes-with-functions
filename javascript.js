@@ -13,6 +13,7 @@ const coneVolume = (radius, height) => {
     return 1/3 * Math.PI * radiusSquared * height;
 }
 
+
 /* Cylinder. V = π x r2 x h. */
 const cylinderVolume = (radius, height) => {
     let radiusSquared = Math.pow(radius, 2);
@@ -32,9 +33,15 @@ const cuboidVolume = (length, height, width) => {
     return length * height * width;
 }
 
+
 /* Square Pyramid. V = 1/3 x b2 x h. */
 const squarePyramidVolume = (base, height) => {
     let baseSquared = Math.pow(base, 2);
     return 1/3 * baseSquared * height;
 }
 
+
+/* Triangular Prism. V = 1/2 * apothem * base * height. */
+const triangularPrismVolume = (apothem, base, height) => {
+    return (apothem * base)/2  * height;
+}
