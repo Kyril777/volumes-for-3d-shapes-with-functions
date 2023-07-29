@@ -1,4 +1,4 @@
-# PHP functiona for calculating volumes of 3-D shapes. 
+# Python functions for calculating volumes of 3-D shapes. 
 
 import math
 
